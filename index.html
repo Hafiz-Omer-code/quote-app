@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Quote-App</title>
+</head>
+<body>
+    <div class="quote-box">
+        <h2>Quote of the Day</h2>
+        <blockquote id="quote">Loading...</blockquote>
+        <span id="author">Loading...</span>
+        <div>
+            <button onclick="getquote(api_url);">
+                New Quote
+            </button>
+            <button onclick="tweet()">
+               <img src="twitter.png" alt="Twitter Icon"> Tweet
+            </button>
+                <button onclick="shareOnFacebook()">
+                    <img src="facebook.svg" alt=""> Facebook
+                </button>
+                <button onclick="shareOnWhatsApp()">
+                    <img src="whatsapp.png" alt=""> WhatsApp
+                </button>
+                <button onclick="shareOnLinkedIn()">
+                    <img src="linkedin.png" alt=""> LinkedIn
+                </button>
+                <button onclick="shareOnQuora()">
+                    <img src="quora.png" alt=""> Quora
+                </button>            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
