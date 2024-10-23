@@ -46,10 +46,6 @@ body {
     transform: translateX(-50%);
 }
 
-.quote-box h2.name{
-    color: rgba(255, 255, 255, 0.7);
-}
-
 .quote-box blockquote {
     font-size: 28px;
     color: #000;
